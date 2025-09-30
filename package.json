@@ -1,0 +1,38 @@
+{
+  "name": "monitor-susde-swaps",
+  "version": "1.0.0",
+  "description": "Focused sUSDe Swap Monitor for Fluid DEX with CSV Logging",
+  "main": "monitor-susde-swaps.js",
+  "scripts": {
+    "start": "node monitor-susde-swaps.js",
+    "monitor": "node monitor-susde-swaps.js",
+    "dev": "node monitor-susde-swaps.js",
+    "railway": "node monitor-susde-swaps.js"
+  },
+  "keywords": [
+    "ethereum",
+    "defi",
+    "susde",
+    "fluid-dex",
+    "swap-monitor",
+    "price-tracking",
+    "blockchain"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.4"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
